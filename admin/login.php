@@ -1,8 +1,8 @@
 <?php
 require('functions.inc.php');
 // Add your reCAPTCHA API keys here
-$siteKey = '6LdCVuQmAAAAAP9uofmVCbjw2vrGkGpWBbGuwTUj';
-$secretKey = '6LdCVuQmAAAAAMT8xzPLS9GPn890cOCBOc-CWzlj';
+$siteKey = SITEKEY ;
+$secretKey = SECRETKEY;
 
 $msg='';
 if(isset($_POST['submit'])){
