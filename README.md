@@ -32,29 +32,13 @@ Step 6: Click "Go" button located at the bottom right of the page.
 Step 7: Done.
 
 
-
--------------------------------------------------------------------------------------------------------------------------------------
-3. Setting up EMS:E-Merchant System
--------------------------------------------------------------------------------------------------------------------------------------
-Step 1: Download the EMS file into the C:\xampp\htdocs
-
-Step 2: Start the "Apache" and "MySQL" in XAMPP Software.
-
-Step 3: Open browser.
-
-Step 4: Enter http://localhost/EMS/ in the browser.
-
-Step 5 (If Use localhost Database): Go to "connection.php" and "admin/connection.php"
-
-Step 6 (If Use localhost Database) : Replace "$con=mysqli_connect("ntn.h.filess.io","FINALEMS_wavecutget","b935576cc4a3b53af67a2f8717347f2cdd361b73","FINALEMS_wavecutget","3307");"
-to 
-"$con=mysqli_connect("locolhost","","","");"
-
 -------------------------------------------------------------------------------------------------------------------------------------
 3. Setup your own Firebase Authentication
 -------------------------------------------------------------------------------------------------------------------------------------
 Go to footer.php, and fill in your own firebaseConfig's data:
+
 const firebaseConfig = {
+
     apiKey: APIKEY,
     authDomain: AUTHDOMAIN,
     projectId: PROJECTID,
