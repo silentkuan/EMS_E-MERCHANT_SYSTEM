@@ -52,7 +52,8 @@ const firebaseConfig = {
 4. Setup your own reCAPTCHA
 -------------------------------------------------------------------------------------------------------------------------------------
 Go to admin/login.php: ( Add your reCAPTCHA API keys )
-
+$siteKey = SITEKEY;
+$secretKey = SECRETKEY;
 $siteKey = SITEKEY;
 $secretKey = SECRETKEY;
 
