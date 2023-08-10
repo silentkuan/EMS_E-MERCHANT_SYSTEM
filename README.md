@@ -50,8 +50,26 @@ Step 6 (If Use localhost Database) : Replace "$con=mysqli_connect("ntn.h.filess.
 to 
 "$con=mysqli_connect("locolhost","","","");"
 
+-------------------------------------------------------------------------------------------------------------------------------------
+3. Setup your own Firebase Authentication
+-------------------------------------------------------------------------------------------------------------------------------------
 
-
+Go to footer.php, and fill in your own firebaseConfig's data:
+const firebaseConfig = {
+    apiKey: APIKEY,
+    authDomain: AUTHDOMAIN,
+    projectId: PROJECTID,
+    storageBucket: STORAGEBUCKET,
+    messagingSenderId: MESSAGINGSENDERID,
+    appId: APPID,
+    measurementId: MEASUREMENTID
+  }; dd
+-------------------------------------------------------------------------------------------------------------------------------------
+4. Setup your own reCAPTCHA
+-------------------------------------------------------------------------------------------------------------------------------------
+Go to admin/login.php: ( Add your reCAPTCHA API keys )
+$siteKey = SITEKEY ;
+$secretKey = SECRETKEY;
 
 -------------------------------------------------------------------------------------------------------------------------------------
 3. Start to use EMS:E-Merchant System (Information of EMS:E-Merchant System)
