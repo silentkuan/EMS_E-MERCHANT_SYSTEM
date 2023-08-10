@@ -52,10 +52,10 @@ const firebaseConfig = {
 4. Setup your own reCAPTCHA
 -------------------------------------------------------------------------------------------------------------------------------------
 Go to admin/login.php: ( Add your reCAPTCHA API keys )
+
 $siteKey = SITEKEY;
 $secretKey = SECRETKEY;
-$siteKey = SITEKEY;
-$secretKey = SECRETKEY;
+
 
 -------------------------------------------------------------------------------------------------------------------------------------
 3. Start to use EMS:E-Merchant System (Information of EMS:E-Merchant System)
